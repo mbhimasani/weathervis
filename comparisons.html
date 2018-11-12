@@ -40,68 +40,55 @@
       </div>
     </nav>
 
-    <div class="container-fluid">
-
-      <div class="row">
-        <div class="col-md-7">
-
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="text-center">Summary: Latitude vs. X</h1>
-                <img src="Resources/assets/images/Fig1.png" width="400" class="map img-resonsive rounded pull-left" alt="Latitude vs. Max Temp">
-                <div class="inline"><p>The purpose of this project was to analyze changes in weather as we approach the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.</p>
-                <p>With this dataset, we then used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-5">
-          <h2 class="text-center">Visualizations</h2>
+    <div class="container-fluid" style="text-align: center;">
+      <div class="row" style="padding-left: 20%; padding-right: 20%; width:100%">
+        <div class="col-md-12">
+          <h1 class="text-center">Latitude vs X</h1>
           <div class=container-fluid>
             <div class="row">
 
               <!-- clicking on each image will redirect to appropriate graph -->
 
               <div class="col-md-6">
+                <h4 class="text-center">vs Max Temperature</h4>
                 <figure class="figure">
                   <a href="maxtemp.html">
-                    <img src="Resources/assets/images/Fig1.png" width="320" class="figure-img img-fluid rounded" alt="Latitude vs. Max Temp">
+                    <img src="Resources/assets/images/Fig1.png" width="430" class="figure-img img-fluid rounded" alt="Latitude vs. Max Temp">
                   </a>
                 </figure>
               </div>
 
               <div class="col-md-6">
+                <h4 class="text-center">vs Humidity</h4>
                 <figure class="figure">
                   <a href="humidity.html">
-                    <img src="Resources/assets/images/Fig2.png" width="320" class="figure-img img-fluid rounded" alt="Latitude vs. Humidity">
+                    <img src="Resources/assets/images/Fig2.png" width="430" class="figure-img img-fluid rounded" alt="Latitude vs. Humidity">
                   </a>
                 </figure>
               </div>
 
               <div class="col-md-6">
+                <h4 class="text-center">vs Cloudiness</h4>
                 <figure class="figure">
                   <a href="cloudiness.html">
-                    <img src="Resources/assets/images/Fig3.png" width="320" class="figure-img img-fluid rounded" alt="Latitude vs. Cloudiness">
+                    <img src="Resources/assets/images/Fig3.png" width="430" class="figure-img img-fluid rounded" alt="Latitude vs. Cloudiness">
                   </a>
                 </figure>
               </div>
 
               <div class="col-md-6">
+                <h4 class="text-center">vs Wind Speed</h4>
                 <figure class="figure">
                   <a href="windspeed.html">
-                    <img src="Resources/assets/images/Fig4.png" width="320" class="figure-img img-fluid rounded" alt="Latitude vs. Wind Speed">
+                    <img src="Resources/assets/images/Fig4.png" width="430" class="figure-img img-fluid rounded" alt="Latitude vs. Wind Speed">
                   </a>
                 </figure>
               </div>
             </div>
+            </div>
           </div>
         </div>
       </div>
-
-    </div>
 
   </body>
 </html>

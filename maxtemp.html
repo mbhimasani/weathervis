@@ -4,24 +4,25 @@
     <meta charset="utf-8">
     <title>Weather Data & Visualizations</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 
     <link rel="stylesheet" href="style.css">
+
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html">Latitude</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Plots </a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"> Plots </a>
             <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
               <a class="dropdown-item" href="humidity.html">Humidity</a>
@@ -49,7 +50,7 @@
               <div class="col-md-12">
                 <h1 class="text-center">Latitude vs. Max Temperature</h1>
                 <img src="Resources/assets/images/Fig1.png" width="400" class="map img-resonsive rounded pull-left" alt="Latitude vs. Max Temp">
-                <div class="inline"><p>Analysis: Based on the City Latitudes vs Temperature scatterplot parabola, we can see that the cities in latitudes -20 to 30 degrees have the highest temperatures. It’s interesting to note that the cities in the latitudes 20-40 degrees are pretty varied with a few outliers having temperatures in the 15 to 40 degrees Fahrenheit and a few cities in the 90 to 100 degrees Fahrenheit. This raises a few questions, and I wonder if these outliers are due to the Earth's tilt, causing cities in the 20-40 latitude range to be more exposed to the Sun. </p>
+                <div class="inline"><p>Analysis: As expected, the cities near the equator have the highest temperatures. It’s interesting to note that the cities in the latitudes 20-40 degrees are pretty varied with a few outliers having temperatures in the 15 to 40 degrees Fahrenheit and a few cities in the 90 to 100 degrees Fahrenheit. We also see that cities in the south hemisphere have higher temperatures than those in the north hemisphere. These points could be attributed to the Earth's tilt on January 2017, causing cities in the -20 to -50 latitude range to be more exposed to the Sun. </p>
                 </div>
               </div>
             </div>
